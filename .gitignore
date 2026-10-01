@@ -1,0 +1,60 @@
+# ---- 编译产物 ----
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.map
+*.res
+*.o
+*.a
+*.so
+*.dylib
+
+# ---- 中间/输出目录 ----
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+dist/
+Debug/
+Release/
+x64/
+x86/
+
+# ---- Visual Studio / MSBuild ----
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.log
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ---- Python（scripts/*.py） ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store
